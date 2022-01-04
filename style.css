@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.row {
+    --bs-gutter-x: none;
+}
+ul li a:hover {
+    border:1px solid white;
+    border-radius: 5%;
+}
+h1:hover, h2:hover, p:hover {
+    color: rgb(95, 95, 95);
+}
+h3:hover{
+    color: white;
+}
+.nav-item .nav-link {
+    margin-right: 25px;
+    font-size: larger;
+}
+img:hover {
+    transform: translate(2px,1px);
+}
+.icon {
+    color: #ff2a2a;
+}
+.icon:hover {
+    color: #ff3747;
+}
+
+/* mediaquery */
+@media only screen and (max-width: 991px) {
+    #hero-text, .hero-text {
+        text-align: center;
+    }
+    .img-o {
+        width: 100%;
+    }
+   .row-horse {
+       display: flex;
+       flex-direction: column-reverse;
+   }
+.row-horse h2 {
+    margin-top: 20px;
+}
+
+  }
